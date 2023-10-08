@@ -1,0 +1,240 @@
+/*
+[RTL Stylesheet]
+Plugin: Education Pro Core - A plugin for Education Pro LMS WordPress Theme.
+--------------------------------------------------------------------*/
+
+.post-tiled-category, .post-tiled .post-tiled-title,
+.tx-services-overlay-item .tx-services-title {
+	text-align: right;
+}
+.tx-owl-nav button.owl-prev {
+	float: left;
+}
+
+.elementor-widget-container .woocommerce ul.products li.product .itsnew.onsale {
+	left: auto;
+}
+.tx-port-enlrg-content-right {
+	text-align: right;
+}
+
+/*courses*/
+.tx-courses-excp {
+    text-align: right;
+}
+.education-pro .ccol33 .lp-badge.featured-course, .learn-press-courses .ccol33 .lp-badge.featured-course, .theme-education-pro .ccol33 .lp-badge.featured-course {
+	left: auto;
+	right: 170px;
+}
+
+.courses-carousel-wrapper .lp-course-price {
+	right: 0;
+}
+
+/*  Call to Action
+------------------------------------- */
+.tx-call-to-action .title {
+	text-align: inherit;
+}
+.tx-call-to-action.cta-icon-flex .icon {
+	padding-left: 20px;
+}
+
+/*heading*/
+.entry-content .tx-hd-desc * {
+    text-align: inherit;
+}
+
+/* Icon Box */
+.tx-icon-box-wrap.style-2.right {
+	flex-direction: row;
+}
+.tx-icon-box-wrap.style-3.left .tx-icon-box-icon .tx-icon-box-title {
+	margin-left: 0;
+    margin-right: 15px;
+}
+.tx-icon-box-wrap.style-3.right .tx-icon-box-icon .tx-icon-box-title,
+.tx-icon-box-wrap.style-2.left .tx-icon-box-icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.tx-icon-box-wrap.style-3.left .tx-icon-box-desc {
+    text-align: right;
+}
+.tx-icon-box-wrap.style-3.right .tx-icon-box-desc {
+	text-align: left;
+}
+
+/*  Features
+------------------------------------- */
+.tx-ft-image-content, .tx-ft-text-content {
+	text-align: right;
+}
+
+/* Image Hover
+------------------------------------- */
+/*Effect 2*/
+.tx-ih-wrap.effect-3 .tx-ih-title {
+	text-align: right;
+}
+.tx-ih-wrap.effect-3 .tx-ih-title:after {
+	right: 0;
+}
+.tx-ih-wrap.effect-3 .tx-ih-desc {
+	float: right;
+	text-align: right;
+}
+
+/*Effect 3*/
+.tx-ih-wrap.effect-4 .tx-ih-title,
+.tx-ih-wrap.effect-4 .tx-ih-desc {
+	text-align: right;
+}
+
+/*News Ticker*/
+.tx-news-ticker-container .owl-carousel .owl-nav button.owl-prev, 
+.tx-news-ticker-container .owl-carousel .owl-nav button.owl-next {
+	font-size: inherit;
+}
+.tx-news-ticker-label {
+	float: right;
+}
+.tx-news-ticker-container .owl-carousel .owl-stage-outer {
+	float: right;
+}
+.elementor-widget-avas-news-ticker .tx-carousel.owl-carousel .owl-nav button.owl-next {
+	left:15px;
+}
+.elementor-widget-avas-news-ticker .tx-carousel.owl-carousel .owl-nav button.owl-next,
+.elementor-widget-avas-news-ticker .tx-carousel.owl-carousel .owl-nav button.owl-prev {
+	font-size: 10px
+}
+
+/*  Portfolio
+------------------------------------- */
+.tx-port-enlrg-content-right {
+	text-align: right;
+}
+
+/*profile*/
+.entry-content .tx-profile-details * {
+	text-align: inherit;
+}
+
+/*post carousel*/
+.tx-carousel.owl-carousel .owl-nav button.owl-next {
+    position: relative;
+    left: 35px;
+}
+.post-carousel-wrapper {
+	text-align: right;
+}
+.post-carousel-wrapper .tx-post-list-meta {
+	float: right;
+}
+.tx-post-list-desc {
+	display: inline-block;
+}
+.post-carousel-wrapper .tx-post-list-category {
+	padding-right: 15px;
+}
+
+/*  Post List
+------------------------------------- */
+.tx-post-list-wrap-first.style-2 .tx-post-list-meta {
+	display: flow-root;
+}
+.tx-post-list-wrap-first .tx-post-list-title,
+.tx-post-list-wrap-first .tx-post-list-category,
+.tx-post-list-wrap-first.style-2 .tx-post-list-desc,
+.tx-post-list-wrap-last .tx-post-list-title {
+	text-align: right;
+}
+.tx-post-list-wrap-last .tx-post-list-left {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.tx-post-list-wrap-last.style-3 .tx-post-list-meta {
+	display: flex;
+}
+
+/*  Post Tiled
+------------------------------------- */
+.post-tiled-category, .post-tiled .post-tiled-title,
+.tx-services-overlay-item .tx-services-title {
+	text-align: right;
+}
+
+/*timeline*/
+@media (min-width: 64rem) {
+	.tx-timeline-icon {
+		margin-right: calc(5% - 25px);
+	}
+	.tx-timeline-date { 
+		left: auto;
+		right: 45%;
+	}
+	.tx-timeline-container:nth-child(even) .tx-timeline-date {
+		left: 45% !important;
+		right: auto !important;
+	}
+}
+
+.tx-timeline-content::before {
+	border: none !important;
+}
+
+@media (max-width: 768px) {
+	.tx-timeline-content {
+		margin-right: 1.25em;
+	}
+	.tx-timeline-line {
+		left: auto;
+		right: 18px;
+	}
+}
+
+/*testimonial*/
+.tx-carousel.owl-carousel .owl-nav button.owl-prev {
+    position: relative;
+    right: 25px;
+    float: none;
+}
+
+.tx-testimonial-wrap.tx-nav-middle .tx-carousel.owl-carousel .owl-nav button.owl-prev {
+    left: auto;
+}
+.tx-testimonial-wrap.tx-nav-middle .tx-carousel.owl-carousel .owl-nav button.owl-prev .la-angle-left:before {
+	content: "\f112";
+}
+.tx-testimonial-wrap.tx-nav-middle .tx-carousel.owl-carousel .owl-nav button.owl-next {
+    right: auto;
+}
+.tx-testimonial-wrap.tx-nav-middle .tx-carousel.owl-carousel .owl-nav button.owl-next .la-angle-right:before {
+	content: "\f111";
+}
+
+/*post carousel*/
+.tx-carousel.owl-carousel .owl-nav button.owl-next {
+    position: relative;
+    left: 35px;
+}
+.post-carousel-wrapper {
+	text-align: right;
+}
+.post-carousel-wrapper .tx-post-list-meta {
+	float: right;
+}
+.tx-post-list-desc {
+	display: inline-block;
+}
+.post-carousel-wrapper .tx-post-list-category {
+	padding-right: 15px;
+}
+
+/*  WooCommerce
+------------------------------------- */
+.elementor-widget-container .woocommerce ul.products li.product .itsnew.onsale {
+	left: auto;
+}
